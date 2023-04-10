@@ -4,10 +4,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        "palette-grey": "#F4F4F4",
-        "palette-mint": "#6DECB9",
-        "palette-teal": "#11999E",
-        "palette-black": "#3C3C3C",
+        gunmetal: "#252a34",
+        azure: "#edf7f6",
+        keppel: "#15b097",
+        thullian: "#ce7da5",
+        raspberry: "#d81e5b",
       },
     },
   },

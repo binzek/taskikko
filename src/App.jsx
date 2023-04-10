@@ -1,12 +1,13 @@
 import React from "react";
 
-import { Header, ToDos } from "./components";
+import { Footer, Header, ToDos } from "./components";
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-azure duration-200 selection:bg-keppel dark:bg-gunmetal">
+    <div className="flex min-h-screen flex-col bg-azure duration-200 selection:bg-keppel dark:bg-gunmetal">
       <Header />
       <ToDos />
+      <Footer />
     </div>
   );
 };

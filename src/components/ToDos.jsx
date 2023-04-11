@@ -1,6 +1,6 @@
 import React from "react";
 
-import { ToDo } from "./";
+import { ToDo, NewToDo } from "./";
 
 const ToDos = () => {
   return (
@@ -10,29 +10,7 @@ const ToDos = () => {
       <ToDo />
       <ToDo />
       <ToDo />
-      <ToDo />
-      <ToDo />
-      <ToDo />
-      <ToDo />
-      <ToDo />
-      <ToDo />
-      <ToDo />
-      <ToDo />
-      <ToDo />
-      <ToDo />
-      <ToDo />
-      <ToDo />
-      <ToDo />
-      <ToDo />
-      <ToDo />
-      <ToDo />
-      <ToDo />
-      <ToDo />
-      <ToDo />
-      <ToDo />
-      <ToDo />
-      <ToDo />
-      <ToDo />
+      <NewToDo />
     </div>
   );
 };

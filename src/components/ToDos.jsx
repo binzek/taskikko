@@ -6,6 +6,9 @@ const ToDos = () => {
   const [toDos, setToDos] = useState([]);
 
   useEffect(() => {
+    if (!localStorage.toDos) {
+      localStorage.toDos = JSON.stringify(toDos);
+    }
     setToDos(JSON.parse(localStorage.toDos));
   }, []);
 

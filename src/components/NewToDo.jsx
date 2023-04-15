@@ -24,6 +24,7 @@ const NewToDo = ({ setToDos, toDos }) => {
         autoComplete="off"
       />
       <button
+        aria-label="Add New Todo"
         type="submit"
         className="absolute right-5 cursor-pointer text-lg text-gunmetal opacity-60 dark:text-azure"
       >

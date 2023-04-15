@@ -10,11 +10,20 @@ const Footer = () => {
       <span>&copy;{year}</span>
       <span>
         Created by{" "}
-        <a href="https://wajid.me/" target="_blank" className="text-raspberry">
+        <a
+          href="https://wajid.me/"
+          target="_blank"
+          className="text-raspberry"
+          aria-label="Go to developer's personal website"
+        >
           Wajid
         </a>
       </span>
-      <a href="https://github.com/wajid-nv/taskikko/" target="_blank">
+      <a
+        href="https://github.com/wajid-nv/taskikko/"
+        target="_blank"
+        aria-label="Go to the Github repository of this app"
+      >
         <AiFillGithub className="text-base text-raspberry" />
       </a>
     </footer>

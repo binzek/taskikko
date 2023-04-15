@@ -21,6 +21,7 @@ const NewToDo = ({ setToDos, toDos }) => {
         className="w-full border-b-gunmetal border-opacity-40 bg-transparent pb-1 pl-1 pr-6 font-light text-gunmetal outline-none focus:border-b invalid:focus:border-b-raspberry invalid:focus:placeholder:text-raspberry dark:border-b-azure dark:border-opacity-30 dark:text-azure dark:invalid:focus:border-b-raspberry"
         placeholder="Type new task"
         required
+        autoComplete="off"
       />
       <button
         type="submit"

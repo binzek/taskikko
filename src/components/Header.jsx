@@ -15,7 +15,7 @@ const Header = () => {
         Taskikko
       </a>
       <CgDarkMode
-        className="ml-auto cursor-pointer text-2xl text-gunmetal duration-200 dark:text-azure md:text-3xl"
+        className="ml-auto cursor-pointer text-3xl text-gunmetal duration-200 dark:text-azure"
         onClick={() => {
           if (localStorage.theme === "") {
             localStorage.theme = "dark";

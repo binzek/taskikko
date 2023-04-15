@@ -3,7 +3,6 @@ import { AiOutlinePlus } from "react-icons/ai";
 
 const NewToDo = ({ setToDos, toDos }) => {
   const [newToDo, setNewToDo] = useState("");
-  let inputValue = false;
 
   return (
     <form

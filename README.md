@@ -92,6 +92,6 @@ Taskikko is a minimalist todo management app that allows you to create and check
 - I referred [Colorhunt](https://colorhunt.co) for finding good color combos and uses [Coolors](https://coolors.co) for generating custom color palette
 - I got a matching favicon from [Flaticon](https://flaticon.com)
 
-### License
+## License
 
-This project is released under the [MIT License](https://opensource.org/license/mit/).
+Distributed under the [MIT License](https://opensource.org/license/mit/). See `LICENSE` for more information.

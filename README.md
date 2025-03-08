@@ -4,7 +4,7 @@ Taskikko is a minimalist todo management app that allows you to create and check
 
 ## Usage
 
-- [Visit the app](https://taskikko.wajid.me)
+- [Visit the app](https://taskikko.live.binzek.com/)
 - Type your todo in the given input box and _Enter_ or click the **+** button
 - Once you completed the task or if you want to remove a task, just check off the checkbox and it's gone
 

@@ -11,7 +11,7 @@ const Footer = () => {
       <span>
         Created by{" "}
         <a
-          href="https://wajid.me/"
+          href="https://www.binzek.com/"
           target="_blank"
           className="text-raspberry"
           aria-label="Go to developer's personal website"
@@ -20,7 +20,7 @@ const Footer = () => {
         </a>
       </span>
       <a
-        href="https://github.com/wajid-nv/taskikko/"
+        href="https://github.com/binzek/taskikko/"
         target="_blank"
         aria-label="Go to the Github repository of this app"
       >
